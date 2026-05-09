@@ -1,5 +1,5 @@
 <video width="100%" controls autoplay muted loop>
-  <source src="demo.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/yayabash/Trossen-wx250s_Trajectory_gen/main/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
