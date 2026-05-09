@@ -32,7 +32,7 @@ $$\\mathbf{e}_{ori} = \\frac{1}{2} (R R_{ref}^T - R_{ref} R^T)^\\vee$$
 
 1. **Clone the repo:**
    ```bash
-   git clone [https://github.com/your-username/WidowX-Trajectory-Gen.git](https://github.com/your-username/WidowX-Trajectory-Gen.git)
+   git clone (https://github.com/yayabash/Trossen-wx250s_Trajectory_gen.git)
    cd WidowX-Trajectory-Gen
 
 ## Trajectory Concept
