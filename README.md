@@ -32,8 +32,9 @@ $$\\mathbf{e}_{ori} = \\frac{1}{2} (R R_{ref}^T - R_{ref} R^T)^\\vee$$
 
 1. **Clone the repo:**
    ```bash
-   git clone (https://github.com/yayabash/Trossen-wx250s_Trajectory_gen.git)
-   cd WidowX-Trajectory-Gen
+   git clone https://github.com/yayabash/Trossen-wx250s_Trajectory_gen.git
+   cd Trossen-wx250s_Trajectory_gen
+
 
 ## Trajectory Concept
 
@@ -43,5 +44,12 @@ The trajectory is planned in Cartesian space, not directly in joint space.
 - Orientation waypoints are defined directly as quaternions, for example `quat0`, `quat_via`, and `quat_f`.
 - The mocap body named `reference` is updated every timestep with `data.mocap_pos` and `data.mocap_quat`.
 - The inverse kinematics solver converts that moving pose into a 6-joint configuration for the robot.
+
+## 📹 Visualization
+
+<video width="720" height="540" controls autoplay muted loop>
+  <source src="demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
