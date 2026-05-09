@@ -1,3 +1,8 @@
+<video width="100%" controls autoplay muted loop>
+  <source src="demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 # WidowX 250 S Cartesian Trajectory Generation
 
 This repository provides a complete implementation of **Task Space Trajectory Generation** and **Inverse Kinematics (IK)** for the Trossen Robotics WidowX 250S manipulator. The project is simulated using the **MuJoCo** physics engine.
@@ -44,12 +49,5 @@ The trajectory is planned in Cartesian space, not directly in joint space.
 - Orientation waypoints are defined directly as quaternions, for example `quat0`, `quat_via`, and `quat_f`.
 - The mocap body named `reference` is updated every timestep with `data.mocap_pos` and `data.mocap_quat`.
 - The inverse kinematics solver converts that moving pose into a 6-joint configuration for the robot.
-
-## 📹 Visualization
-
-<video width="720" height="540" controls autoplay muted loop>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 
